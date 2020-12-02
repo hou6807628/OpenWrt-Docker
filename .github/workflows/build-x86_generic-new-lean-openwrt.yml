@@ -154,8 +154,6 @@ jobs:
           docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_PWD }}
           docker push ${{ secrets.DOCKER_HUB_USERNAME }}/openwrt:x86_generic
 
-      
-
       - name: Organize Files
         id: organize
         if: steps.generate.outputs.status == 'success' && !cancelled()
