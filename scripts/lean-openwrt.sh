@@ -13,6 +13,9 @@ pushd package/lean
 git clone --depth=1 https://github.com/fw876/helloworld
 popd
 
+#编译passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
+
 # Clone community packages to package/community
 mkdir package/community
 pushd package/community
