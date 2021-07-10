@@ -23,10 +23,10 @@ env:
   CONFIG_FILE: config/lean/x86/x86_64-lean-target.config
   DEVICE: openwrt-x86-64
   DIY_SH: scripts/lean-openwrt.sh
-  IPV6MOD_IN_FIRMWARE: false
+  IPV6MOD_IN_FIRMWARE: true
   KMODS_IN_FIRMWARE: false
   UPLOAD_WETRANSFER: true
-  UPLOAD_COWTRANSFER: true
+  UPLOAD_COWTRANSFER: false
   TZ: Asia/Shanghai
 
 jobs:
